@@ -8,7 +8,7 @@ The amount of work varies from 0 until the max length of the SHA256 hash. As of 
 
 
 ## References
-The guidelines were based on the [Proof-of-Work](https://en.bitcoin.it/wiki/Proof_of_work) documentation available on bitcoing wiki.
+The guidelines were based on the [Proof-of-Work](https://en.bitcoin.it/wiki/Proof_of_work) documentation available on bitcoin wiki.
 
 
 
