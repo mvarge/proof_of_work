@@ -4,7 +4,7 @@ Simple Proof-of-Work experiment in Python
 ## About
 This program is a minimal-experiment to better understand how a proof-of-work algorithm works similar to the ones used for BitCoin, mailing, DoS, etc systems use. It reads a prototype string and calculates the SHA256 hash probabilities based on the required level of success (aka leading zeroes).
 
-The ammount of work varies from 0 until the max length of the SHA256 hash. As of January of 2018 the last Tx hash registered on [BlockChain](https://blockchain.info/pt/block/00000000000000000069c3e4feec27bc15e3a4d343a78221e12e4a331efaa44f) was `00000000000000000069c3e4feec27bc15e3a4d343a78221e12e4a331efaa44f`, which contains 17 leading zeroes and would be represented as `--level=17`, although it's not recommended to try out this ammount of work level as your CPU cycle would be way high.
+The ammount of work varies from 0 until the max length of the SHA256 hash. As of January of 2018 the last Tx hash registered on [BlockChain](https://blockchain.info/pt/block/00000000000000000069c3e4feec27bc15e3a4d343a78221e12e4a331efaa44f) was `00000000000000000069c3e4feec27bc15e3a4d343a78221e12e4a331efaa44f`, which contains 17 leading zeroes and would be represented as `--level=17`, although it's not recommended to try out this ammount of work level as your CPU cycle and accomplishment time would be way high.
 
 
 ## References
