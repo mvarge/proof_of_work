@@ -6,11 +6,8 @@ This program is a minimal-experiment to better understand how a proof-of-work al
 
 The amount of work varies from 0 until the max length of the SHA256 hash. As of January of 2018 the last Tx hash registered on [BlockChain](https://blockchain.info/pt/block/00000000000000000069c3e4feec27bc15e3a4d343a78221e12e4a331efaa44f) was `00000000000000000069c3e4feec27bc15e3a4d343a78221e12e4a331efaa44f`, which contains 17 leading zeroes and would be represented as `--level=17`, although it's not recommended to try out this amount of work level as your CPU cycle and accomplishment time would be way high.
 
-
 ## References
 The guidelines were based on the [Proof-of-Work](https://en.bitcoin.it/wiki/Proof_of_work) documentation available on bitcoin wiki.
-
-
 
 ## Examples
 
