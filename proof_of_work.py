@@ -7,7 +7,6 @@ import argparse
 def proof_of_work(prototype, level=1, verbose=False):
     if not prototype:
         prototype = random_prototype()
-        print prototype
     count = 0
     while True:
         for y in range(0, 256):
